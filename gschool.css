@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    height:20vh;
+    background-color: black;
+    text-align: center;
+}
+
+body{
+    padding:0;
+    margin-top:13%;
+    display: block;
+    overflow-x: hidden;
+    
+}
+
+header{
+    width:100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+label[id = "school"]{
+    color: white;
+    font-size:100px;
+}
+
+
+
+nav ul{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	max-width: 700px;
+	margin: 0 auto;
+    background-color: white;
+    
+   
+}
+
+nav li {
+	margin: 0;
+    
+    
+}
+nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #0b0c0c;
+	font-weight: bold;
+	
+}
+
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+nav ul li a:active{
+    background-color: green;
+}
+
+label[id="Courses"]{
+    font-size:50px;
+}
+p{
+font-size:30px;
+}
+
+
+
+/* ol{
+    width: 70%;
+    position: relative;
+    left: 66%;
+    top: -20%;
+    border: 1px solid black;
+    border-radius:5px;
+    z-index: 1;
+    background-color:rgb(161, 107, 107);
+     */
+    
+    
+    
+/* } */
+
+
+ol li{
+    padding:20px;
+    list-style-type: none;
+}
+
+ol a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+ol a:hover{
+    background-color: black;
+    color: white;
+}
+
+div[id="sneakers"]{
+    width: 20%;
+    height: 70vh;
+    border: 1px solid black;
+    position: relative;
+        left: 75%;
+        top: -100px;
+    }

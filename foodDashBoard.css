@@ -1,0 +1,263 @@
+.container{
+    width: 100%;
+    height:20vh;
+    background-color: black;
+    text-align: center;
+}
+
+body{
+    padding:0;
+    margin-top:15%;
+    display: block;
+    overflow-x: hidden;
+    
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+}
+label[id = "school"]{
+    color: white;
+    font-size:100px;
+}
+.section1{
+    
+    margin-left: 2%;
+    margin-top: 5%;
+    display: flex;
+    height: 45vh;
+    width: 90%;
+
+    
+   
+    
+    
+}
+
+.phones{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+.cusmetics{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 5%;
+    text-align: center;
+    
+
+    
+}
+.laptops{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 10%;
+    text-align: center;
+   
+
+    
+}
+
+div[id="sneakers"]{
+    width: 20%;
+    height: 70vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+   
+   
+    
+}
+
+    
+   
+
+ul li{
+    padding:20px;
+    
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+ul a:hover{
+    background-color: black;
+    color: white;
+}
+
+.hidden{
+    display: none;
+   
+}
+.hid{
+    display: none;
+}
+
+
+
+
+
+button[id="phones"]{
+    position: relative;
+    top: 200px;
+}
+
+button[id="cusmecs"]{
+    position: relative;
+    top: 200px;
+}
+
+
+ .links {
+    /* display: flex;
+    justify-content: space-between;
+    width: 40%; */
+    /* text-align: center; */
+
+  } 
+  a[id="rest"]{
+    position: relative;
+    top: 200px;
+    left: 15%;
+    height: 5vh;
+   width: 50%;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 10px;
+    
+
+    
+  }
+  a[id="can"]{
+    position: relative;
+    top: 200px;
+    left: -10%;
+    height: 15vh;
+    width: 50%;
+    border: 1px solid black;
+    padding:5px;
+    border-radius:10px;
+    
+
+}
+
+a[id="bar"]{
+    position: relative;
+    top: 200px;
+    left: -10%;
+    height: 15vh;
+    width: 50%;
+    border: 1px solid black;
+    padding:5px;
+    border-radius:10px;
+}
+
+   .links li {
+    list-style: none;
+    width: 100%;
+    
+   
+    
+  } 
+
+  .links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .links a:hover {
+    color: #f2c924;
+  }
+
+  .links ol {
+    position: relative;
+    top: -90px;
+    left: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden; 
+    transition: all 0.3s ease;
+    background-color: pink;
+    
+  }
+
+  .links li:hover > ol {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .links ol li {
+     width: 100%; 
+   padding: 10px;
+    text-align: center;
+  }
+
+
+nav{
+    
+    height: 30px;
+
+   
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+  
+    
+   
+}
+nav  a{
+    display: inline-block;
+    position: relative;
+    top: -100%;
+    left: 300px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+nav a:active{
+    background-color:green;
+}
+
+
+
+/* .clothes{
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    position: relative;
+    left: 15%;
+    text-align: center;
+
+}
+.funiture{
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    text-align: center;
+} */

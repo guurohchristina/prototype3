@@ -1,0 +1,389 @@
+.container{
+    display: flex;
+   /* border: 1px solid black; */
+
+   height: 10vh;
+   align-items: center;
+   background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(6, 6, 54) 35%,rgba(2,0,36,1) 100%);
+   /* background-color: #E77E58; */
+  
+}
+h1{
+    color: #EACECB;
+}
+/* .main{
+    background-color: #181F30; 
+} */
+
+.sub-container{
+display: flex;
+flex-flow: row;
+width: 100%;
+    height: 9vh;
+    /* background-color: #181F30; */
+
+    position: absolute;
+    animation: move 5s linear infinite;
+
+    /* @keyframes move {
+        0% {
+            left: 0;
+        }
+        100% {
+            left
+        }
+    } */
+    
+    
+    
+    
+}
+header{
+   
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+ /* #menuSix.moved {
+   margin-top:200px;
+    
+}
+#menuEight.mov{
+    margin-top: 200px;
+    
+}  */
+
+
+body{
+   display: block;
+    margin: 1px;
+    padding: 0;
+    overflow-x: hidden;
+     background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(6, 6, 54) 35%,rgba(2,0,36,1) 100%);
+    /* background-color: #181F30; */
+    
+}
+.menu1{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    width: 20%;
+    height: 70vh;
+    border-radius: 10px;
+    margin-top: 2%;
+    position: fixed;
+    left: 1%;
+    background-color: transparent;
+  text-align: center;
+}
+
+
+    
+nav ul{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+    background-color: #2036,1;
+    position: relative;
+    top: 0.5px;
+   
+   
+}
+
+nav li {
+	margin: 0;
+    
+    
+}
+nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+    color: #EACECB;
+	font-weight: bold;
+	
+}
+
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+nav ul li a:active{
+    background-color: green;
+}
+
+ol{
+    position: relative;
+    left: 20%;
+    
+}
+ol li{
+    list-style-type: none;
+    display: inline;
+    padding: 40px;
+    font-size: 40px;
+    
+}
+
+/* log in and sign in button */
+ 
+ .signup{
+   padding: 10px 60px;
+    border-radius: 15px;
+    font-size: 15px;
+    position: relative;
+    top: 60%;
+    background-color: #2036; 
+    color: #EACECB ;
+
+ }
+ .login{
+   padding: 10px 60px;
+    border-radius: 15px;
+    font-size:15px ;
+    position: relative;
+    top: 5%;
+    background-color: #2036;
+    color: #EACECB;
+ }
+ 
+
+ 
+ 
+ 
+.menu6{
+    width: 60%;
+    height:90vh;
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    text-align: center;
+    
+    
+}
+ .menu7{
+    width: 70%;
+    height:70vh;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    position: relative;
+    left: 25%; 
+    /* background-color: */
+   
+ }
+   
+
+.menu8{
+    width: 60%;
+    height:90vh;
+    border: 1px solid black;
+    margin-top: 10%;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    text-align: center;
+
+}
+.menu9{
+    width: 60%;
+    height:90vh;
+    border: 1px solid black;
+    margin-top: 10%;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    text-align: center;
+
+}
+.menu10{
+    width: 60%;
+    height:90vh;
+    border: 1px solid black;
+    margin-top: 10%;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    text-align: center;
+}
+.menu11{
+    width: 60%;
+    height:90vh;
+    border: 1px solid black;
+    margin-top: 10%;
+    position: relative;
+    left: 30%;
+    top: 200px;
+    text-align: center;
+
+}
+
+#signupModel{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+   
+}
+
+#signupContent{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+   
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: transparent;
+    width: 80%;
+    height: 50vh;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px;
+}
+
+#signupModel.show{
+    display: block;
+}
+#Body.shown{
+    background-color: rgba(0,0,0,0.5);
+}
+#navv.shoow{
+    display: none;
+}
+
+
+#loginModel{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+   
+}
+
+#loginContent{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+   
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: transparent;
+    width: 80%;
+    height: 50vh;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px;
+}
+
+#loginModel.shownn{
+    display: block;
+}
+
+
+label[id="about"]{
+    position: relative;
+    top: 30%;
+    font-size: 20px;
+    font-weight:bold;
+    color: #EACECB;
+}
+
+
+/* .box{
+    position: relative;
+    left: 47%;
+    top: 100px;
+    width: 50px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(400PX);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+}
+.box span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-color: 1PX solid#E77E58;
+} */
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: -408px;
+    left: 150px;
+    /* border-radius: 5px; */
+    
+}
+
+.slide {
+    display: none;
+    height: 300px;
+    height: 65vh;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(6, 6, 54) 35%,rgba(2,0,36,1) 100%);
+    position: relative;
+    top: 200px;
+    color: #EACECB;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 767px){
+    nav ul {
+        flex-direction: row;
+        }
+        nav li {
+        margin-bottom: 10px;
+        }
+        nav a {
+        text-align: center;
+        }
+        .menu1{
+            width: 50%;
+            height:50vh;
+            position: relative;
+            left: 20%;
+
+        }
+}
+
+

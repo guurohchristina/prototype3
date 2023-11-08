@@ -1,0 +1,209 @@
+.container{
+    width: 100%;
+    height:20vh;
+    background-color: black;
+    text-align: center;
+}
+
+body{
+    padding:0;
+    margin:0;
+    display: block;
+    overflow-x: hidden;
+    
+}
+label[id = "school"]{
+    color: white;
+    font-size:100px;
+}
+.section1{
+    
+    margin-left: 2%;
+    display: flex;
+    height: 45vh;
+    width: 90%;
+
+    
+   
+    
+    
+}
+
+.phones{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+}
+.cusmetics{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 5%;
+    text-align: center;
+    
+
+    
+}
+.laptops{
+    width: 20%;
+    height: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 10%;
+    text-align: center;
+   
+
+    
+}
+
+div[id="sneakers"]{
+    width: 20%;
+    height: 70vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+   
+   
+    
+}
+
+
+
+ul li{
+    padding:20px;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+ul a:hover{
+    background-color: black;
+    color: white;
+}
+
+.hidden{
+    
+    display: none;
+   
+}
+.hid{
+    display: none;
+}
+.hidd{
+    display: none;
+}
+.hiid{
+    display: none;
+    
+}
+
+
+
+
+
+button[id="phones"]{
+    position: relative;
+    top: 200px;
+}
+
+button[id="cusmecs"]{
+    position: relative;
+    top: 200px;
+}
+button[id="tops"]{
+    position: relative;
+    top: 200px;
+}
+
+button[id="clothes"]{
+    position: relative;
+    top: 200px;
+}
+ol{
+    width: 70%;
+    position: relative;
+    left: 66%;
+    top: -20%;
+    /* border: 1px solid black; */
+    border-radius:5px;
+    z-index: 1;
+    background-color:rgb(161, 107, 107);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3); 
+    
+    
+    
+    
+}
+
+ol li{
+    padding:10px;
+    color:black;
+}
+ol {
+    list-style-type: none;
+}
+ol a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+ol a:hover{
+    background-color: black;
+    color:white;
+}
+
+nav{
+    
+    height: 30px;
+
+   
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+  
+    
+   
+}
+nav  a{
+    display: inline-block;
+    position: relative;
+    top: -100%;
+    left: 300px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+nav a:active{
+    background-color:green;
+}
+
+
+
+/* .clothes{
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    position: relative;
+    left: 15%;
+    text-align: center;
+
+}
+.funiture{
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    text-align: center;
+} */
